@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6v0382/v1
+canonical_location: https://kanripo.org/bkk/KR6v0382/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 藏逸經書標目
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B14/B14n0084.xml
+    old_id: B14n0084
+  edition:
+    short: bkk
+editions:
+- short: 補編
+  label: 補編
+  source_xml_id: wit.orig
+- short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0382_000.yaml, hash: 'sha256:a9c92f15b5ad4896c2324a89d157e157bac4aa6d80228ffadf33251c59592277'}
+  - {seq: 1, filename: KR6v0382_001.yaml, hash: 'sha256:05c9e9749fdf34365035f486016a7b36b9acfae989985e8b0f7674e8ddc6a7a2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0382_001.markers.yaml, hash: 'sha256:145e9f7907cc2f7155ad5d99b1c43fdf69a70baec23dcee5742c728f49aab690'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0382_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 5098
+  label: 藏逸經書標目
+  type: juan
+  level: 1
+hash: sha256:468ad9e3ecb0a3d18492f8904c1ebe74797edfc05d8f25a5ecf61d62edb4f75c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

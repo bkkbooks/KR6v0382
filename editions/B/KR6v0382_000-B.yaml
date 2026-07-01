@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0382/b/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 藏逸經書標目
+  edition:
+    short: b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B14/B14n0084.xml
+    old_id: B14n0084
+hash: sha256:a9c92f15b5ad4896c2324a89d157e157bac4aa6d80228ffadf33251c59592277
